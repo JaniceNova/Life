@@ -1,0 +1,15 @@
+html {
+    box-sizing: border-box;
+  }
+  *, *:before, *:after {
+    box-sizing: inherit;
+  }
+html body { 
+    background: url(../im) no-repeat center center fixed; 
+     -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover; 
+    cursor: pointer;
+    line-height: 1.2;
+  }
