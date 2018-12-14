@@ -15,9 +15,20 @@ html body {
   }
 
   .square {
-height: 100px;
-width: 150px;
+height: 800px;
+width: 1500px;
 border: 2px solid black;
+margin:0px;
+z-index: 1;
 float:left;
+
+  }
+
+  #square1{
+    height: 100px;
+    width:150px;
+    border: 2px solid black;
+    z-index: 999;
+    float:left;
 
   }
