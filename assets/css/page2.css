@@ -1,0 +1,23 @@
+html {
+    box-sizing: border-box;
+  }
+  *, *:before, *:after {
+    box-sizing: inherit;
+  }
+html body { 
+    background: url(../images/beetle-3284215_1920.jpg) no-repeat center center fixed; 
+     -webkit-background-size: 100%;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: 480px; 
+    cursor: pointer;
+    line-height: 1.2;
+  }
+
+  .square {
+height: 100px;
+width: 150px;
+border: 2px solid black;
+float:left;
+
+  }
