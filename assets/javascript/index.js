@@ -12,3 +12,12 @@
 //              }   
 //   });
  
+
+$("#submit").click(function (evt) {
+   
+  evt.preventDefault();
+  if ($("#inputbox").val().toLowerCase()==="life"){
+    window.location.href="page2.html";
+  }
+  
+  });
