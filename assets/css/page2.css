@@ -4,20 +4,43 @@ html {
   *, *:before, *:after {
     box-sizing: inherit;
   }
-html body { 
-    background: url(../images/beetle-3284215_1920.jpg) no-repeat center center fixed; 
-     -webkit-background-size: 100%;
-    -moz-background-size: cover;
-    -o-background-size: cover;
-    background-size: 480px; 
-    cursor: pointer;
-    line-height: 1.2;
-  }
+img {
+  height:300px;
+  float: left;
+}
+#square1{
+  height: 100px;
+  width:150px;
+ 
+  z-index: 999;
+  float:left;
+  margin-top: 40%;
+  margin-left: 40%;
+  text-align: center;
+  opacity: .6;
 
-  .square {
-height: 100px;
-width: 150px;
-border: 2px solid black;
-float:left;
 
-  }
+}
+input {
+background-color: lightgray;
+border-radius: 20px;
+font-size: 20px;
+border: 2px solid gray;
+color:grey;
+}
+
+#submit {
+
+margin-left:40px;
+
+}
+
+#question  {
+font-size: 35px;
+font-weight: 700;
+border-radius: 35px;
+margin-left: 90%;
+margin-top: 40px;
+opacity: .6;
+
+}
